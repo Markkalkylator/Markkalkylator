@@ -1,0 +1,22 @@
+     | ^^^^^^^^^^^^^^^^^
+>  9 | ).toString();
+     | ^
+  10 |
+  11 | const OBJECT_TYPES = [
+  12 |   { id: "asfalt", label: "Asfalt", color: "#1D4ED8", unit: "m²", price...
+
+Import trace:
+  Server Component:
+    ./components/DrawingTool.jsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET / 200 in 909ms (next.js: 113ms, application-code: 796ms)
+ GET / 200 in 22ms (next.js: 1856µs, application-code: 20ms)
+ POST /api/analyze-legend 200 in 1502ms (next.js: 134ms, application-code: 1369ms)
+ POST /api/analyze-legend 500 in 1018ms (next.js: 3ms, application-code: 1015ms)
+[browser] Kunde inte nå backend, använder demo-data: Error: Fick inget textsvar från modellen
+    at detectLegendFromAI (components/DrawingTool.jsx:204:13)
+    at async DrawingTool.useCallback[analyzeMarkedLegend] (components/DrawingTool.jsx:749:32)
+  202 |
+  203 |     if (!res.ok) {

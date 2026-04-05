@@ -1,0 +1,95 @@
+{
+  "id": "p-1775331230536-sw9cq5",
+  "name": "Namnlöst projekt",
+  "date": "2026-04-04T19:33:50.251Z",
+  "objects": [],
+  "notes": [],
+  "measurements": [],
+  "layers": [
+    {
+      "id": "ly-1",
+      "name": "Markarbeten",
+      "color": "#3B6FD4",
+      "visible": true
+    },
+    {
+      "id": "ly-2",
+      "name": "Kantsten & VA",
+      "color": "#38BDF8",
+      "visible": true
+    }
+  ],
+  "activeLayerId": "ly-1",
+  "ppm": 120,
+  "materials": [
+    {
+      "id": "m1",
+      "label": "Asfalt",
+      "unit": "m²",
+      "price": 250,
+      "color": "#64748B",
+      "geo": "area"
+    },
+    {
+      "id": "m2",
+      "label": "Grus / Makadam",
+      "unit": "m²",
+      "price": 120,
+      "color": "#CA8A04",
+      "geo": "area"
+    },
+    {
+      "id": "m3",
+      "label": "Betongplatta",
+      "unit": "m²",
+      "price": 420,
+      "color": "#818CF8",
+      "geo": "area"
+    },
+    {
+      "id": "m4",
+      "label": "Natursten",
+      "unit": "m²",
+      "price": 520,
+      "color": "#D97706",
+      "geo": "area"
+    },
+    {
+      "id": "m5",
+      "label": "Gräsyta",
+      "unit": "m²",
+      "price": 95,
+      "color": "#34D399",
+      "geo": "area"
+    },
+    {
+      "id": "m6",
+      "label": "Schakt",
+      "unit": "m²",
+      "price": 180,
+      "color": "#F87171",
+      "geo": "area"
+    },
+    {
+      "id": "m7",
+      "label": "Kantsten granit",
+      "unit": "m",
+      "price": 310,
+      "color": "#38BDF8",
+      "geo": "line"
+    },
+    {
+      "id": "m8",
+      "label": "Betongkantsten",
+      "unit": "m",
+      "price": 220,
+      "color": "#A78BFA",
+      "geo": "line"
+    }
+  ],
+  "extraRows": [],
+  "companyName": "",
+  "companyInfo": "",
+  "showLabels": true,
+  "savedAt": "2026-04-04T19:33:50.537Z"
+}

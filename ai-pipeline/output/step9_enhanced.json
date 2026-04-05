@@ -1,0 +1,614 @@
+{
+  "pdf_path": "/sessions/loving-pensive-edison/mnt/mark-app/public/ritning.pdf",
+  "page_number": 1,
+  "scale_denom": 200.0,
+  "auto_accept_threshold": 0.65,
+  "summary": {
+    "total_candidates": 11,
+    "auto_accepted": 3,
+    "needs_review": 8,
+    "auto_accepted_area_m2": 7.93,
+    "review_area_m2": 404.74,
+    "total_area_m2": 412.67,
+    "match_breakdown": {
+      "exact": 7,
+      "fuzzy": 1,
+      "none": 3
+    },
+    "priority_breakdown": {
+      "critical": 1,
+      "high": 4,
+      "medium": 3,
+      "low": 3
+    },
+    "auto_accept_threshold": 0.65,
+    "pixel_validation_enabled": true
+  },
+  "scored_candidates": [
+    {
+      "id": "s9_rc_0001",
+      "source_candidate_id": "mc_0007",
+      "page_number": 1,
+      "fill_color_hex": "#D8BE9B",
+      "match_type": "exact",
+      "matched_legend_hex": "#D8BE9B",
+      "delta_e_to_legend": 0.0,
+      "material_category": "gras",
+      "material_label": "PLANTERINGSYTA, GRÄSTORV HARPAD MATJORD : 150 MM",
+      "material_label_short": "PLANTERINGSYTA, GRÄSTORV HARPAD MATJORD : 150 MM",
+      "is_conflict": false,
+      "area_m2": 2.3023,
+      "n_zones": 1,
+      "n_polygons": 1,
+      "compactness": 1.0,
+      "pixel_validation": {
+        "n_pixels_sampled": 200,
+        "mean_rgb": [
+          203.6,
+          179.6,
+          148.1
+        ],
+        "mean_rgb_hex": "#CCB494",
+        "rgb_consistency": 0.286,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 1,
+        "delta_e_img_vs_pdf": 4.09,
+        "delta_e_img_vs_legend": 4.09
+      },
+      "signals": {
+        "color_score": 0.813,
+        "patch_score": 0.912,
+        "spatial_score": 1.0,
+        "evidence_score": 0.408,
+        "weighted_raw": 0.814,
+        "penalty_factor": 1.0,
+        "penalty_reasons": [],
+        "final_score": 0.814
+      },
+      "confidence_score": 0.814,
+      "auto_accepted": true,
+      "review_priority": "low",
+      "requires_human_review": false,
+      "nn_suggestions": [],
+      "rank": 1
+    },
+    {
+      "id": "s9_rc_0010",
+      "source_candidate_id": "mc_0006",
+      "page_number": 1,
+      "fill_color_hex": "#D6BF9E",
+      "match_type": "exact",
+      "matched_legend_hex": "#D6BF9E",
+      "delta_e_to_legend": 0.0,
+      "material_category": "sand",
+      "material_label": "S2, STRID SAND, FALLSKYDD BAKBAR SAND 400 MM GEOTEXTIL N2",
+      "material_label_short": "S2, STRID SAND, FALLSKYDD BAKBAR SAND 400 MM GEOTEXTIL N2",
+      "is_conflict": false,
+      "area_m2": 2.3023,
+      "n_zones": 1,
+      "n_polygons": 1,
+      "compactness": 1.0,
+      "pixel_validation": {
+        "n_pixels_sampled": 200,
+        "mean_rgb": [
+          202.2,
+          181.4,
+          149.3
+        ],
+        "mean_rgb_hex": "#CAB595",
+        "rgb_consistency": 0.33,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 1,
+        "delta_e_img_vs_pdf": 3.88,
+        "delta_e_img_vs_legend": 3.88
+      },
+      "signals": {
+        "color_score": 0.797,
+        "patch_score": 0.575,
+        "spatial_score": 1.0,
+        "evidence_score": 0.135,
+        "weighted_raw": 0.683,
+        "penalty_factor": 1.0,
+        "penalty_reasons": [],
+        "final_score": 0.683
+      },
+      "confidence_score": 0.683,
+      "auto_accepted": true,
+      "review_priority": "low",
+      "requires_human_review": false,
+      "nn_suggestions": [],
+      "rank": 2
+    },
+    {
+      "id": "s9_rc_0006",
+      "source_candidate_id": "mc_0008",
+      "page_number": 1,
+      "fill_color_hex": "#344D31",
+      "match_type": "exact",
+      "matched_legend_hex": "#344D31",
+      "delta_e_to_legend": 0.0,
+      "material_category": "okänd",
+      "material_label": "",
+      "material_label_short": "(legendetikett saknas)",
+      "is_conflict": false,
+      "area_m2": 3.329,
+      "n_zones": 2,
+      "n_polygons": 2,
+      "compactness": 1.0,
+      "pixel_validation": {
+        "n_pixels_sampled": 400,
+        "mean_rgb": [
+          64.0,
+          77.8,
+          47.5
+        ],
+        "mean_rgb_hex": "#404E2F",
+        "rgb_consistency": 0.508,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 2,
+        "delta_e_img_vs_pdf": 5.18,
+        "delta_e_img_vs_legend": 5.18
+      },
+      "signals": {
+        "color_score": 0.5,
+        "patch_score": 0.895,
+        "spatial_score": 1.0,
+        "evidence_score": 0.366,
+        "weighted_raw": 0.679,
+        "penalty_factor": 1.0,
+        "penalty_reasons": [],
+        "final_score": 0.679
+      },
+      "confidence_score": 0.679,
+      "auto_accepted": true,
+      "review_priority": "low",
+      "requires_human_review": false,
+      "nn_suggestions": [],
+      "rank": 3
+    },
+    {
+      "id": "s9_rc_0004",
+      "source_candidate_id": "mc_0002",
+      "page_number": 1,
+      "fill_color_hex": "#7E5E3E",
+      "match_type": "exact",
+      "matched_legend_hex": "#7E5E3E",
+      "delta_e_to_legend": 0.0,
+      "material_category": "okänd",
+      "material_label": "",
+      "material_label_short": "(legendetikett saknas)",
+      "is_conflict": false,
+      "area_m2": 60.1119,
+      "n_zones": 8,
+      "n_polygons": 21,
+      "compactness": 0.451,
+      "pixel_validation": {
+        "n_pixels_sampled": 1600,
+        "mean_rgb": [
+          125.8,
+          106.4,
+          78.5
+        ],
+        "mean_rgb_hex": "#7E6A4E",
+        "rgb_consistency": 0.364,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 8,
+        "delta_e_img_vs_pdf": 7.85,
+        "delta_e_img_vs_legend": 7.85
+      },
+      "signals": {
+        "color_score": 0.5,
+        "patch_score": 0.861,
+        "spatial_score": 0.756,
+        "evidence_score": 0.624,
+        "weighted_raw": 0.66,
+        "penalty_factor": 0.7902,
+        "penalty_reasons": [
+          "hull-avvikelse 122% (×0.88)",
+          "8 sub-zoner (×0.9)"
+        ],
+        "final_score": 0.522
+      },
+      "confidence_score": 0.522,
+      "auto_accepted": false,
+      "review_priority": "medium",
+      "requires_human_review": true,
+      "nn_suggestions": [],
+      "rank": 4
+    },
+    {
+      "id": "s9_rc_0002",
+      "source_candidate_id": "mc_0003",
+      "page_number": 1,
+      "fill_color_hex": "#59794C",
+      "match_type": "exact",
+      "matched_legend_hex": "#59794C",
+      "delta_e_to_legend": 0.0,
+      "material_category": "betongplattor",
+      "material_label": "PLATTRAD, BETONGPLATTOR , GRÅ 350X350X50MM MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM TRAPPA, BETONGBLOCK",
+      "material_label_short": "PLATTRAD, BETONGPLATTOR , GRÅ 350X350X50MM MAKADAM 2-5 : 30 ",
+      "is_conflict": false,
+      "area_m2": 42.8241,
+      "n_zones": 6,
+      "n_polygons": 15,
+      "compactness": 0.429,
+      "pixel_validation": {
+        "n_pixels_sampled": 1200,
+        "mean_rgb": [
+          111.7,
+          132.3,
+          97.6
+        ],
+        "mean_rgb_hex": "#708462",
+        "rgb_consistency": 0.361,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 6,
+        "delta_e_img_vs_pdf": 9.96,
+        "delta_e_img_vs_legend": 9.96
+      },
+      "signals": {
+        "color_score": 0.31,
+        "patch_score": 0.837,
+        "spatial_score": 0.734,
+        "evidence_score": 0.528,
+        "weighted_raw": 0.559,
+        "penalty_factor": 0.7802,
+        "penalty_reasons": [
+          "hull-avvikelse 133% (×0.87)",
+          "6 sub-zoner (×0.9)"
+        ],
+        "final_score": 0.436
+      },
+      "confidence_score": 0.436,
+      "auto_accepted": false,
+      "review_priority": "medium",
+      "requires_human_review": true,
+      "nn_suggestions": [],
+      "rank": 5
+    },
+    {
+      "id": "s9_rc_0009",
+      "source_candidate_id": "mc_0009",
+      "page_number": 1,
+      "fill_color_hex": "#779266",
+      "match_type": "fuzzy",
+      "matched_legend_hex": "#78A067",
+      "delta_e_to_legend": 9.4,
+      "material_category": "gras",
+      "material_label": "PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD : 150 MM",
+      "material_label_short": "[fuzzy ΔE=9.4] PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD : 150 MM",
+      "is_conflict": true,
+      "area_m2": 2.9428,
+      "n_zones": 2,
+      "n_polygons": 2,
+      "compactness": 1.0,
+      "pixel_validation": {
+        "n_pixels_sampled": 400,
+        "mean_rgb": [
+          107.2,
+          132.7,
+          92.2
+        ],
+        "mean_rgb_hex": "#6B855C",
+        "rgb_consistency": 0.219,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 2,
+        "delta_e_img_vs_pdf": 5.08,
+        "delta_e_img_vs_legend": 13.26
+      },
+      "signals": {
+        "color_score": 0.369,
+        "patch_score": 0.838,
+        "spatial_score": 1.0,
+        "evidence_score": 0.281,
+        "weighted_raw": 0.599,
+        "penalty_factor": 0.595,
+        "penalty_reasons": [
+          "färgkonflikt (×0.7)",
+          "fuzzy-match ΔE=9.4 (×0.85)"
+        ],
+        "final_score": 0.357
+      },
+      "confidence_score": 0.357,
+      "auto_accepted": false,
+      "review_priority": "medium",
+      "requires_human_review": true,
+      "nn_suggestions": [],
+      "rank": 6
+    },
+    {
+      "id": "s9_rc_0005",
+      "source_candidate_id": "mc_0005",
+      "page_number": 1,
+      "fill_color_hex": "#78A067",
+      "match_type": "exact",
+      "matched_legend_hex": "#78A067",
+      "delta_e_to_legend": 0.0,
+      "material_category": "gras",
+      "material_label": "PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD : 150 MM",
+      "material_label_short": "PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD : 150 MM",
+      "is_conflict": true,
+      "area_m2": 19.8537,
+      "n_zones": 3,
+      "n_polygons": 10,
+      "compactness": 0.206,
+      "pixel_validation": {
+        "n_pixels_sampled": 600,
+        "mean_rgb": [
+          126.3,
+          153.6,
+          108.7
+        ],
+        "mean_rgb_hex": "#7E9A6D",
+        "rgb_consistency": 0.313,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 3,
+        "delta_e_img_vs_pdf": 8.04,
+        "delta_e_img_vs_legend": 8.04
+      },
+      "signals": {
+        "color_score": 0.61,
+        "patch_score": 0.858,
+        "spatial_score": 0.231,
+        "evidence_score": 0.665,
+        "weighted_raw": 0.604,
+        "penalty_factor": 0.4307,
+        "penalty_reasons": [
+          "färgkonflikt (×0.7)",
+          "hull-avvikelse 385% (×0.62)"
+        ],
+        "final_score": 0.26
+      },
+      "confidence_score": 0.26,
+      "auto_accepted": false,
+      "review_priority": "high",
+      "requires_human_review": true,
+      "nn_suggestions": [],
+      "rank": 7
+    },
+    {
+      "id": "s9_rc_0003",
+      "source_candidate_id": "mc_0001",
+      "page_number": 1,
+      "fill_color_hex": "#DCDCDC",
+      "match_type": "exact",
+      "matched_legend_hex": "#DCDCDC",
+      "delta_e_to_legend": 0.0,
+      "material_category": "asfalt",
+      "material_label": "FASTIGHETSGRÄNS ARBETSOMRÅDE FÄRDIGT GOLV NY PROJEKTERAD HÖJD A1, ASFALTSYTA ABT11 70/100 : 30 MM AG16 100/150 : 40 MM BÄRLAGER 0-40: 80 MM FÖRSTÄRKNINGSLAGER 0-90: 420 MM SM, STENMJÖLSYTA STENMJÖL 0-5 : 40 MM BÄRLAGER 0-16 : 40 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 240 MM GRÄSARMERING, GRÅ GRÄSARMERING: 80 MM MAKADAM 2-5: 30 MM BÄRLAGER 0-40: 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 270 MM BETONGMARKPLATTA , GRÅ 350X350X50MM. HAVSTENSFÖRBAND MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM MARKSTEN GRÅ 210X210X60MM. FRIS AV MARKSTEN, GRÅ. 210X140X60MM. MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM",
+      "material_label_short": "FASTIGHETSGRÄNS ARBETSOMRÅDE FÄRDIGT GOLV NY PROJEKTERAD HÖJ",
+      "is_conflict": true,
+      "area_m2": 245.3762,
+      "n_zones": 4,
+      "n_polygons": 53,
+      "compactness": 0.223,
+      "pixel_validation": {
+        "n_pixels_sampled": 800,
+        "mean_rgb": [
+          182.6,
+          181.9,
+          178.9
+        ],
+        "mean_rgb_hex": "#B7B6B3",
+        "rgb_consistency": 0.131,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 4,
+        "delta_e_img_vs_pdf": 13.81,
+        "delta_e_img_vs_legend": 13.81
+      },
+      "signals": {
+        "color_score": 0.417,
+        "patch_score": 0.756,
+        "spatial_score": 0.304,
+        "evidence_score": 0.871,
+        "weighted_raw": 0.547,
+        "penalty_factor": 0.4564,
+        "penalty_reasons": [
+          "färgkonflikt (×0.7)",
+          "hull-avvikelse 348% (×0.65)"
+        ],
+        "final_score": 0.25
+      },
+      "confidence_score": 0.25,
+      "auto_accepted": false,
+      "review_priority": "high",
+      "requires_human_review": true,
+      "nn_suggestions": [],
+      "rank": 8
+    },
+    {
+      "id": "s9_rc_0007",
+      "source_candidate_id": "mc_0004",
+      "page_number": 1,
+      "fill_color_hex": "#7F7F7F",
+      "match_type": "none",
+      "matched_legend_hex": "",
+      "delta_e_to_legend": 27.172262781028863,
+      "material_category": "okänd",
+      "material_label": "",
+      "material_label_short": "(okänd — närmaste: #7E5E3E ΔE=27 (); #59794C ΔE=30 (PLATTRAD, BETONGPLAT); #344D31 ΔE=31 ())",
+      "is_conflict": false,
+      "area_m2": 28.0315,
+      "n_zones": 5,
+      "n_polygons": 12,
+      "compactness": 0.694,
+      "pixel_validation": {
+        "n_pixels_sampled": 1000,
+        "mean_rgb": [
+          144.6,
+          138.0,
+          137.7
+        ],
+        "mean_rgb_hex": "#918A8A",
+        "rgb_consistency": 0.68,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 5,
+        "delta_e_img_vs_pdf": 5.6,
+        "delta_e_img_vs_legend": null
+      },
+      "signals": {
+        "color_score": 0.0,
+        "patch_score": 0.0,
+        "spatial_score": 0.912,
+        "evidence_score": 0.36,
+        "weighted_raw": 0.236,
+        "penalty_factor": 0.9,
+        "penalty_reasons": [
+          "5 sub-zoner (×0.9)"
+        ],
+        "final_score": 0.0
+      },
+      "confidence_score": 0.0,
+      "auto_accepted": false,
+      "review_priority": "critical",
+      "requires_human_review": true,
+      "nn_suggestions": [
+        {
+          "color_hex": "#7E5E3E",
+          "delta_e": 27.2,
+          "label": "",
+          "material_category": "okänd"
+        },
+        {
+          "color_hex": "#59794C",
+          "delta_e": 30.0,
+          "label": "PLATTRAD, BETONGPLATTOR , GRÅ 350X350X50MM MAKADAM 2-5 : 30 ",
+          "material_category": "betongplattor"
+        },
+        {
+          "color_hex": "#344D31",
+          "delta_e": 31.3,
+          "label": "",
+          "material_category": "okänd"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "s9_rc_0008",
+      "source_candidate_id": "mc_0010",
+      "page_number": 1,
+      "fill_color_hex": "#FF0000",
+      "match_type": "none",
+      "matched_legend_hex": "",
+      "delta_e_to_legend": 84.3842862808633,
+      "material_category": "okänd",
+      "material_label": "",
+      "material_label_short": "(okänd — närmaste: #7E5E3E ΔE=84 (); #D8BE9B ΔE=92 (PLANTERINGSYTA, GRÄS); #D6BF9E ΔE=94 (S2, STRID SAND, FALL))",
+      "is_conflict": false,
+      "area_m2": 3.3602,
+      "n_zones": 1,
+      "n_polygons": 0,
+      "compactness": 2.57,
+      "pixel_validation": {
+        "n_pixels_sampled": 200,
+        "mean_rgb": [
+          255.0,
+          244.8,
+          244.8
+        ],
+        "mean_rgb_hex": "#FFF5F5",
+        "rgb_consistency": 0.479,
+        "hatch_texture_score": 0.0,
+        "n_zones_sampled": 1,
+        "delta_e_img_vs_pdf": 110.41,
+        "delta_e_img_vs_legend": null
+      },
+      "signals": {
+        "color_score": 0.0,
+        "patch_score": 0.0,
+        "spatial_score": 1.0,
+        "evidence_score": 0.342,
+        "weighted_raw": 0.251,
+        "penalty_factor": 0.85,
+        "penalty_reasons": [
+          "hatch-kluster (×0.85)"
+        ],
+        "final_score": 0.0
+      },
+      "confidence_score": 0.0,
+      "auto_accepted": false,
+      "review_priority": "high",
+      "requires_human_review": true,
+      "nn_suggestions": [
+        {
+          "color_hex": "#7E5E3E",
+          "delta_e": 84.4,
+          "label": "",
+          "material_category": "okänd"
+        },
+        {
+          "color_hex": "#D8BE9B",
+          "delta_e": 92.5,
+          "label": "PLANTERINGSYTA, GRÄSTORV HARPAD MATJORD : 150 MM",
+          "material_category": "gras"
+        },
+        {
+          "color_hex": "#D6BF9E",
+          "delta_e": 93.9,
+          "label": "S2, STRID SAND, FALLSKYDD BAKBAR SAND 400 MM GEOTEXTIL N2",
+          "material_category": "sand"
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "id": "s9_rc_0011",
+      "source_candidate_id": "mc_0011",
+      "page_number": 1,
+      "fill_color_hex": "#A7A7A7",
+      "match_type": "none",
+      "matched_legend_hex": "",
+      "delta_e_to_legend": 19.269057674326877,
+      "material_category": "okänd",
+      "material_label": "",
+      "material_label_short": "(okänd — närmaste: #DCDCDC ΔE=19 (FASTIGHETSGRÄNS ARBE); #DCDCDC ΔE=19 (); #DCDCDC ΔE=19 ())",
+      "is_conflict": false,
+      "area_m2": 2.2401,
+      "n_zones": 1,
+      "n_polygons": 0,
+      "compactness": null,
+      "pixel_validation": null,
+      "signals": {
+        "color_score": 0.0,
+        "patch_score": 0.0,
+        "spatial_score": 1.0,
+        "evidence_score": 0.106,
+        "weighted_raw": 0.216,
+        "penalty_factor": 0.85,
+        "penalty_reasons": [
+          "hatch-kluster (×0.85)"
+        ],
+        "final_score": 0.0
+      },
+      "confidence_score": 0.0,
+      "auto_accepted": false,
+      "review_priority": "high",
+      "requires_human_review": true,
+      "nn_suggestions": [
+        {
+          "color_hex": "#DCDCDC",
+          "delta_e": 19.3,
+          "label": "FASTIGHETSGRÄNS ARBETSOMRÅDE FÄRDIGT GOLV NY PROJEKTERAD HÖJ",
+          "material_category": "asfalt"
+        },
+        {
+          "color_hex": "#DCDCDC",
+          "delta_e": 19.3,
+          "label": "",
+          "material_category": "okänd"
+        },
+        {
+          "color_hex": "#DCDCDC",
+          "delta_e": 19.3,
+          "label": "",
+          "material_category": "okänd"
+        }
+      ],
+      "rank": 11
+    }
+  ],
+  "warnings": [
+    "Bildfärg (#FFF5F5) avviker ΔE=110 från PDF-vektorfärg (#FF0000). Kan indikera rasteriserings-artefakt eller lageröverlapp."
+  ]
+}

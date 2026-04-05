@@ -1,0 +1,29 @@
+{
+  "pdf_path": "/sessions/loving-pensive-edison/mnt/mark-app/public/ritning.pdf",
+  "pdf_type": "hybrid_pdf",
+  "page_count": 1,
+  "is_encrypted": false,
+  "pages": [
+    {
+      "page_number": 1,
+      "width_pt": 1191.0,
+      "height_pt": 842.0,
+      "width_mm": 420.2,
+      "height_mm": 297.0,
+      "paper_format": "A3",
+      "pdf_type": "hybrid_pdf",
+      "has_vector_paths": true,
+      "has_raster_images": true,
+      "vector_path_count": 53022,
+      "raster_image_count": 1,
+      "text_count": 64,
+      "scale_notation": "1:200",
+      "scale_px_per_m": 59.06,
+      "rendered_png": "ritning_p001.png",
+      "render_width_px": 4963,
+      "render_height_px": 3509
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}

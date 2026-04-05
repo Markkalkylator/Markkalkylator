@@ -1,0 +1,393 @@
+{
+  "pdf_path": "/sessions/loving-pensive-edison/mnt/mark-app/public/ritning.pdf",
+  "page_number": 1,
+  "legend_header_found": true,
+  "legend_bbox_pdf": [
+    971.9,
+    206.3,
+    1174.2,
+    813.4
+  ],
+  "legend_items": [
+    {
+      "id": "leg_001",
+      "fill_color_rgb": [
+        0.86275,
+        0.86275,
+        0.86275
+      ],
+      "fill_color_hex": "#DCDCDC",
+      "label_raw": "FASTIGHETSGRÄNS\nARBETSOMRÅDE\nFÄRDIGT GOLV\nNY PROJEKTERAD HÖJD\nA1, ASFALTSYTA\nABT11 70/100 : 30 MM\nAG16 100/150 : 40 MM\nBÄRLAGER 0-40: 80 MM\nFÖRSTÄRKNINGSLAGER 0-90: 420 MM\nSM, STENMJÖLSYTA\nSTENMJÖL 0-5 : 40 MM\nBÄRLAGER 0-16 : 40 MM\nBÄRLAGER 0-40 : 80 MM\nFÖRSTÄRKNINGSLAGER 0-90 : 240 MM\nGRÄSARMERING, GRÅ\nGRÄSARMERING: 80 MM\nMAKADAM 2-5: 30 MM\nBÄRLAGER 0-40: 80 MM\nFÖRSTÄRKNINGSLAGER 0-90 : 270 MM\nBETONGMARKPLATTA , GRÅ\n350X350X50MM. HAVSTENSFÖRBAND\nMAKADAM 2-5 : 30 MM\nBÄRLAGER 0-40 : 80 MM\nFÖRSTÄRKNINGSLAGER 0-90 : 230 MM\nMARKSTEN GRÅ\n210X210X60MM.\nFRIS AV MARKSTEN, GRÅ. 210X140X60MM.\nMAKADAM 2-5 : 30 MM\nBÄRLAGER 0-40 : 80 MM\nFÖRSTÄRKNINGSLAGER 0-90 : 230 MM",
+      "label_clean": "FASTIGHETSGRÄNS ARBETSOMRÅDE FÄRDIGT GOLV NY PROJEKTERAD HÖJD A1, ASFALTSYTA ABT11 70/100 : 30 MM AG16 100/150 : 40 MM BÄRLAGER 0-40: 80 MM FÖRSTÄRKNINGSLAGER 0-90: 420 MM SM, STENMJÖLSYTA STENMJÖL 0-5 : 40 MM BÄRLAGER 0-16 : 40 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 240 MM GRÄSARMERING, GRÅ GRÄSARMERING: 80 MM MAKADAM 2-5: 30 MM BÄRLAGER 0-40: 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 270 MM BETONGMARKPLATTA , GRÅ 350X350X50MM. HAVSTENSFÖRBAND MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM MARKSTEN GRÅ 210X210X60MM. FRIS AV MARKSTEN, GRÅ. 210X140X60MM. MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM",
+      "material_category": "asfalt",
+      "patch_bbox_pdf": [
+        971.9,
+        746.7,
+        1011.5,
+        770.0
+      ],
+      "text_bbox_pdf": [
+        1017.1,
+        616.3,
+        1121.4,
+        813.4
+      ],
+      "match_dist_pt": 43.5,
+      "match_confidence": 0.456,
+      "is_area_material": true,
+      "matched_hatch_tiles": 1214,
+      "matched_area_m2": 91.9595
+    },
+    {
+      "id": "leg_002",
+      "fill_color_rgb": [
+        0.86275,
+        0.86275,
+        0.86275
+      ],
+      "fill_color_hex": "#DCDCDC",
+      "label_raw": "",
+      "label_clean": "",
+      "material_category": "okänd",
+      "patch_bbox_pdf": [
+        971.9,
+        718.9,
+        1011.5,
+        742.2
+      ],
+      "text_bbox_pdf": [],
+      "match_dist_pt": 128.8,
+      "match_confidence": 0.0,
+      "is_area_material": true,
+      "matched_hatch_tiles": 1214,
+      "matched_area_m2": 91.9595
+    },
+    {
+      "id": "leg_003",
+      "fill_color_rgb": [
+        0.86275,
+        0.86275,
+        0.86275
+      ],
+      "fill_color_hex": "#DCDCDC",
+      "label_raw": "",
+      "label_clean": "",
+      "material_category": "okänd",
+      "patch_bbox_pdf": [
+        971.9,
+        688.3,
+        1011.5,
+        711.6
+      ],
+      "text_bbox_pdf": [],
+      "match_dist_pt": 98.2,
+      "match_confidence": 0.0,
+      "is_area_material": true,
+      "matched_hatch_tiles": 1214,
+      "matched_area_m2": 91.9595
+    },
+    {
+      "id": "leg_004",
+      "fill_color_rgb": [
+        0.86275,
+        0.86275,
+        0.86275
+      ],
+      "fill_color_hex": "#DCDCDC",
+      "label_raw": "SI, STRID SAND, FALLSKYDD\nSTRID SAND 400 MM\nGEOTEXTIL N2",
+      "label_clean": "SI, STRID SAND, FALLSKYDD STRID SAND 400 MM GEOTEXTIL N2",
+      "material_category": "sand",
+      "patch_bbox_pdf": [
+        971.9,
+        656.5,
+        1011.5,
+        679.8
+      ],
+      "text_bbox_pdf": [
+        1017.6,
+        593.0,
+        1120.7,
+        610.5
+      ],
+      "match_dist_pt": 66.4,
+      "match_confidence": 0.17,
+      "is_area_material": true,
+      "matched_hatch_tiles": 1214,
+      "matched_area_m2": 91.9595
+    },
+    {
+      "id": "leg_005",
+      "fill_color_rgb": [
+        0.83922,
+        0.75294,
+        0.61961
+      ],
+      "fill_color_hex": "#D6BF9E",
+      "label_raw": "S2, STRID SAND, FALLSKYDD\nBAKBAR SAND 400 MM\nGEOTEXTIL N2",
+      "label_clean": "S2, STRID SAND, FALLSKYDD BAKBAR SAND 400 MM GEOTEXTIL N2",
+      "material_category": "sand",
+      "patch_bbox_pdf": [
+        971.9,
+        587.2,
+        1011.5,
+        610.6
+      ],
+      "text_bbox_pdf": [
+        1017.6,
+        566.1,
+        1121.9,
+        583.1
+      ],
+      "match_dist_pt": 24.3,
+      "match_confidence": 0.697,
+      "is_area_material": true,
+      "matched_hatch_tiles": 0,
+      "matched_area_m2": null
+    },
+    {
+      "id": "leg_006",
+      "fill_color_rgb": [
+        0.84706,
+        0.7451,
+        0.61176
+      ],
+      "fill_color_hex": "#D8BE9B",
+      "label_raw": "PLANTERINGSYTA, GRÄSTORV\nHARPAD MATJORD : 150 MM",
+      "label_clean": "PLANTERINGSYTA, GRÄSTORV HARPAD MATJORD : 150 MM",
+      "material_category": "gras",
+      "patch_bbox_pdf": [
+        971.9,
+        559.4,
+        1011.5,
+        582.8
+      ],
+      "text_bbox_pdf": [
+        1017.9,
+        542.1,
+        1129.1,
+        554.1
+      ],
+      "match_dist_pt": 22.9,
+      "match_confidence": 0.713,
+      "is_area_material": true,
+      "matched_hatch_tiles": 177,
+      "matched_area_m2": 4.0791
+    },
+    {
+      "id": "leg_007",
+      "fill_color_rgb": [
+        0.47059,
+        0.63137,
+        0.40784
+      ],
+      "fill_color_hex": "#78A067",
+      "label_raw": "PLANTERINGSYTA, GRÄSSÅDD\nHARPAD MATJORD : 150 MM",
+      "label_clean": "PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD : 150 MM",
+      "material_category": "gras",
+      "patch_bbox_pdf": [
+        971.9,
+        531.6,
+        1011.5,
+        555.0
+      ],
+      "text_bbox_pdf": [
+        1017.9,
+        514.3,
+        1129.1,
+        526.3
+      ],
+      "match_dist_pt": 23.0,
+      "match_confidence": 0.713,
+      "is_area_material": true,
+      "matched_hatch_tiles": 590,
+      "matched_area_m2": 33.5866
+    },
+    {
+      "id": "leg_008",
+      "fill_color_rgb": [
+        0.47059,
+        0.63137,
+        0.40784
+      ],
+      "fill_color_hex": "#78A067",
+      "label_raw": "PLANTERINGBÄDD\nBESTÄLLAREN PLANTERAR PERENNER HÄR.\nHARPAD MATJORD 400 MM MED ÖVERHÖJNING\n100 MM. INBLANDNING AV 50 % GRÖNKOMPOST.\nPLANTERINGSYTA,\nFRIVÄXANDE BUSKAR.\nHARPAD MATJORD 400 MM MED ÖVERHÖJNING\n100 MM. INBLANDNING AV 50 % GRÖNKOMPOST.\nPLANTERINGSYTA, HÄCK\nHARPAD MATJORD 400 MM MED ÖVERHÖJNING\n100 MM. INBLANDNING AV 50 % GRÖNKOMPOST.",
+      "label_clean": "PLANTERINGBÄDD BESTÄLLAREN PLANTERAR PERENNER HÄR. HARPAD MATJORD 400 MM MED ÖVERHÖJNING 100 MM. INBLANDNING AV 50 % GRÖNKOMPOST. PLANTERINGSYTA, FRIVÄXANDE BUSKAR. HARPAD MATJORD 400 MM MED ÖVERHÖJNING 100 MM. INBLANDNING AV 50 % GRÖNKOMPOST. PLANTERINGSYTA, HÄCK HARPAD MATJORD 400 MM MED ÖVERHÖJNING 100 MM. INBLANDNING AV 50 % GRÖNKOMPOST.",
+      "material_category": "planteringsyta",
+      "patch_bbox_pdf": [
+        971.9,
+        503.8,
+        1011.5,
+        527.2
+      ],
+      "text_bbox_pdf": [
+        1017.5,
+        425.3,
+        1119.2,
+        498.5
+      ],
+      "match_dist_pt": 53.6,
+      "match_confidence": 0.33,
+      "is_area_material": true,
+      "matched_hatch_tiles": 590,
+      "matched_area_m2": 33.5866
+    },
+    {
+      "id": "leg_009",
+      "fill_color_rgb": [
+        0.49412,
+        0.36863,
+        0.24314
+      ],
+      "fill_color_hex": "#7E5E3E",
+      "label_raw": "",
+      "label_clean": "",
+      "material_category": "okänd",
+      "patch_bbox_pdf": [
+        971.9,
+        476.0,
+        1011.5,
+        499.3
+      ],
+      "text_bbox_pdf": [],
+      "match_dist_pt": 91.0,
+      "match_confidence": 0.0,
+      "is_area_material": true,
+      "matched_hatch_tiles": 977,
+      "matched_area_m2": 52.3533
+    },
+    {
+      "id": "leg_010",
+      "fill_color_rgb": [
+        0.35294,
+        0.47843,
+        0.30196
+      ],
+      "fill_color_hex": "#59794C",
+      "label_raw": "PLATTRAD, BETONGPLATTOR , GRÅ\n350X350X50MM\nMAKADAM 2-5 : 30 MM\nBÄRLAGER 0-40 : 80 MM\nFÖRSTÄRKNINGSLAGER 0-90 : 230 MM\nTRAPPA, BETONGBLOCK",
+      "label_clean": "PLATTRAD, BETONGPLATTOR , GRÅ 350X350X50MM MAKADAM 2-5 : 30 MM BÄRLAGER 0-40 : 80 MM FÖRSTÄRKNINGSLAGER 0-90 : 230 MM TRAPPA, BETONGBLOCK",
+      "material_category": "betongplattor",
+      "patch_bbox_pdf": [
+        971.9,
+        448.2,
+        1011.5,
+        471.5
+      ],
+      "text_bbox_pdf": [
+        1017.8,
+        377.5,
+        1146.9,
+        415.9
+      ],
+      "match_dist_pt": 63.2,
+      "match_confidence": 0.21,
+      "is_area_material": true,
+      "matched_hatch_tiles": 254,
+      "matched_area_m2": 37.3297
+    },
+    {
+      "id": "leg_011",
+      "fill_color_rgb": [
+        0.20784,
+        0.30588,
+        0.19216
+      ],
+      "fill_color_hex": "#344D31",
+      "label_raw": "",
+      "label_clean": "",
+      "material_category": "okänd",
+      "patch_bbox_pdf": [
+        971.9,
+        420.4,
+        1011.5,
+        443.8
+      ],
+      "text_bbox_pdf": [],
+      "match_dist_pt": 80.9,
+      "match_confidence": 0.0,
+      "is_area_material": true,
+      "matched_hatch_tiles": 80,
+      "matched_area_m2": 8.393
+    },
+    {
+      "id": "leg_012",
+      "fill_color_rgb": [
+        0.86275,
+        0.86275,
+        0.86275
+      ],
+      "fill_color_hex": "#DCDCDC",
+      "label_raw": "BEFINTLIGT TULPANTRÄD SOM\nFLYTTAS.",
+      "label_clean": "BEFINTLIGT TULPANTRÄD SOM FLYTTAS.",
+      "material_category": "trad",
+      "patch_bbox_pdf": [
+        971.9,
+        412.6,
+        1011.5,
+        415.1
+      ],
+      "text_bbox_pdf": [
+        1017.9,
+        343.1,
+        1131.6,
+        359.1
+      ],
+      "match_dist_pt": 62.7,
+      "match_confidence": 0.216,
+      "is_area_material": true,
+      "matched_hatch_tiles": 1214,
+      "matched_area_m2": 91.9595
+    }
+  ],
+  "color_conflicts": [
+    {
+      "fill_color_hex": "#DCDCDC",
+      "matching_labels": [
+        "FASTIGHETSGRÄNS ARBETSOMRÅDE FÄRDIGT GOL",
+        "SI, STRID SAND, FALLSKYDD STRID SAND 400",
+        "BEFINTLIGT TULPANTRÄD SOM FLYTTAS."
+      ],
+      "note": "Samma fyllnadsfärg används för flera legend-poster. Dessa material kan inte skiljas via färg ensam — hatch-mönster eller kontext krävs."
+    },
+    {
+      "fill_color_hex": "#78A067",
+      "matching_labels": [
+        "PLANTERINGSYTA, GRÄSSÅDD HARPAD MATJORD ",
+        "PLANTERINGBÄDD BESTÄLLAREN PLANTERAR PER"
+      ],
+      "note": "Samma fyllnadsfärg används för flera legend-poster. Dessa material kan inte skiljas via färg ensam — hatch-mönster eller kontext krävs."
+    }
+  ],
+  "unmatched_patches": [
+    {
+      "hex": "#DCDCDC",
+      "cy": 730.6,
+      "dist": 128.8,
+      "note": "Ingen text hittades inom max_dist"
+    },
+    {
+      "hex": "#DCDCDC",
+      "cy": 699.9,
+      "dist": 98.2,
+      "note": "Ingen text hittades inom max_dist"
+    },
+    {
+      "hex": "#7E5E3E",
+      "cy": 487.7,
+      "dist": 91.0,
+      "note": "Ingen text hittades inom max_dist"
+    },
+    {
+      "hex": "#344D31",
+      "cy": 432.1,
+      "dist": 80.9,
+      "note": "Ingen text hittades inom max_dist"
+    }
+  ],
+  "unmatched_texts": [
+    "BEFINTLIGT TRÄD SOM SKYDDAS OCH\nBEVARAS",
+    "NYTT PROJEKTERAT TRÄD/SOLITÄR\nSTÖRRE BUSKE\nVARIERANDE STORLE",
+    "DAGVATTENBRUNN, GALLERBETÄCKNING",
+    "260122"
+  ],
+  "warnings": []
+}
