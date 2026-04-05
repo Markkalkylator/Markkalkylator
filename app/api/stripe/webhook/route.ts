@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
 
   switch (event.type) {
     case "checkout.session.completed": {
-      const session = event.data.object as Stripe.CheckoutSession;
+      const session = event.data.object as Stripe.Checkout.Session;
       const { userId, plan } = session.metadata || {};
       console.log(`✅ Ny prenumeration: userId=${userId} plan=${plan}`);
       // TODO: Uppdatera din databas: sätt user.plan = plan, user.subscriptionId = session.subscription

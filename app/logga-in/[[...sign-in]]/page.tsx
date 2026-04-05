@@ -34,7 +34,7 @@ export default function LoginPage() {
               },
             },
           }}
-          redirectUrl="/verktyg"
+          forceRedirectUrl="/verktyg"
           signUpUrl="/registrera"
         />
       </div>
