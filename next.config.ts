@@ -14,3 +14,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+// Sön  5 Apr 2026 23:12:28 CEST
