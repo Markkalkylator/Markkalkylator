@@ -58,7 +58,7 @@ const PLANS = [
   },
   {
     name: "Pro",
-    price: "499",
+    price: "399",
     period: "/mån",
     desc: "För aktiva entreprenörer",
     cta: "Starta 14 dagars test",
