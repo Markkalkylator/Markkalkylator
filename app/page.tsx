@@ -136,11 +136,11 @@ export default function LandingPage() {
           <span style={{ fontWeight: 800, fontSize: 17, letterSpacing: "-0.01em" }}>MarkKalkyl</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-          <Link href="/logga-in" style={{
+          <Link href="/logga-in" className="nav-login" style={{
             padding: "8px 16px", borderRadius: 9, fontSize: 13, fontWeight: 500,
             color: "#475569", textDecoration: "none",
           }}>Logga in</Link>
-          <Link href="/verktyg" style={{
+          <Link href="/verktyg" className="nav-cta" style={{
             padding: "9px 20px", borderRadius: 9, fontSize: 13, fontWeight: 700,
             background: "linear-gradient(135deg,#1A2030,#2C3A58)",
             color: "#fff", textDecoration: "none",

@@ -17,7 +17,7 @@ npm install @clerk/nextjs stripe @stripe/stripe-js
 ### 3. Skapa Stripe-konto (betalning)
 1. Gå till https://stripe.com/se och skapa konto
 2. Under **Products** — skapa två produkter:
-   - **MarkKalkyl Pro** → Recurring price → 499 kr/månad
+   - **MarkKalkyl Pro** → Recurring price → 399 kr/månad
    - **MarkKalkyl Team** → Recurring price → 999 kr/månad
 3. Kopiera båda **Price ID**:na (börjar med `price_`)
 4. Under **Developers → API keys** — kopiera **Secret key**
@@ -72,7 +72,7 @@ vercel
 | Plan   | Pris      | Målgrupp                        |
 |--------|-----------|----------------------------------|
 | Gratis | 0 kr      | Testa, 3 projekt max             |
-| Pro    | 499 kr/mån | Enskild entrepreneur, obegränsat |
+| Pro    | 399 kr/mån | Enskild entrepreneur, obegränsat |
 | Team   | 999 kr/mån | Lag upp till 5 pers             |
 
 **14 dagars gratis test** på Pro och Team — ingen kortuppgift krävs under trial.

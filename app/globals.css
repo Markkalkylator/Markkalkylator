@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 520px) {
+  .nav-login {
+    display: none !important;
+  }
+  .nav-cta {
+    padding: 8px 14px !important;
+    font-size: 12px !important;
+  }
+}
