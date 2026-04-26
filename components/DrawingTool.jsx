@@ -180,10 +180,11 @@ function StatRow({ label, value, unit, mono }) {
 
 // ─── Main component ───────────────────────────────────────────────────────────
 
-export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 100 }) {
-  const canvasRef   = useRef(null);
-  const viewportRef = useRef(null);
-  const zoomRef     = useRef(1);
+export default function DrawingTool({ pdfUrl: pdfUrlProp = null, pixelsPerMeter: initPpm = 100 }) {
+  const canvasRef      = useRef(null);
+  const viewportRef    = useRef(null);
+  const pdfFileInputRef = useRef(null);
+  const zoomRef        = useRef(1);
   const panRef      = useRef({ x:0, y:0 });
   const shiftRef    = useRef(false);
   const curPtsRef   = useRef([]);
@@ -229,6 +230,37 @@ export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 1
 
   const [materials, setMaterials] = useState(MATERIALS);
   const [selMatId,  setSelMatId]  = useState(MATERIALS[0].id);
+
+  // ── Lokal PDF-URL (sätts via drag-drop eller filväljare) ──────────────
+  const [pdfUrl, setPdfUrl] = useState(pdfUrlProp);
+  const [isDragOver, setIsDragOver] = useState(false);
+
+  const handlePdfFile = useCallback((file) => {
+    if (!file) return;
+    if (file.type !== "application/pdf" && !file.name.endsWith(".pdf")) {
+      alert("Välj en PDF-fil (.pdf)");
+      return;
+    }
+    const url = URL.createObjectURL(file);
+    setPdfUrl(url);
+  }, []);
+
+  const handleDrop = useCallback((e) => {
+    e.preventDefault();
+    setIsDragOver(false);
+    const file = e.dataTransfer.files?.[0];
+    if (file) handlePdfFile(file);
+  }, [handlePdfFile]);
+
+  const handleDragOver = useCallback((e) => {
+    e.preventDefault();
+    setIsDragOver(true);
+  }, []);
+
+  const handleDragLeave = useCallback((e) => {
+    e.preventDefault();
+    setIsDragOver(false);
+  }, []);
 
   const [ppm,      setPpm]      = useState(initPpm);
   const [calPts,   setCalPts]   = useState([]);
@@ -1535,6 +1567,18 @@ export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 1
               );
             })}
 
+            {/* Importera ritning — visas i toolbar när ingen PDF laddats */}
+            {pdfStatus !== "ready" && pdfStatus !== "loading" && (
+              <button title="Importera PDF-ritning" className="lux-btn"
+                onClick={() => pdfFileInputRef.current?.click()}
+                style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", borderRadius:7,
+                  background:`linear-gradient(135deg,${T.accentBlue},#1a6fcc)`,
+                  color:"#fff", border:"none", fontWeight:700, fontSize:13 }}>
+                <span>📄</span>
+                <span>Importera ritning</span>
+              </button>
+            )}
+
             {/* Kalibrera — pulserar om den behövs */}
             {(()=>{
               const active = mode==="cal";
@@ -2671,7 +2715,10 @@ export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 1
             onMouseDown={handleMouseDown} onMouseMove={handleMouseMove}
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
-            onTouchEnd={handleTouchEnd}>
+            onTouchEnd={handleTouchEnd}
+            onDrop={handleDrop}
+            onDragOver={handleDragOver}
+            onDragLeave={handleDragLeave}>
 
             {autoScaleDetected && (
               <div style={{ position:"absolute", top:12, left:"50%", transform:"translateX(-50%)",
@@ -2731,6 +2778,11 @@ export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 1
               </div>
             )}
 
+            {/* ── Hidden PDF file input ── */}
+            <input ref={pdfFileInputRef} type="file" accept=".pdf,application/pdf"
+              style={{ display:"none" }}
+              onChange={e => { handlePdfFile(e.target.files?.[0]); e.target.value=""; }} />
+
             {pdfStatus!=="ready" && (
               <div style={{ position:"absolute", inset:0, display:"flex", flexDirection:"column",
                 alignItems:"center", justifyContent:"center", gap:16, zIndex:5 }}>
@@ -2743,7 +2795,47 @@ export default function DrawingTool({ pdfUrl = null, pixelsPerMeter: initPpm = 1
                     <span style={{ fontSize:13, color:T.muted }}>Laddar ritning…</span>
                   </>
                 )}
-                {pdfStatus==="error" && <span style={{ color:T.red, fontSize:13 }}>Fel vid inläsning av PDF</span>}
+                {pdfStatus==="error" && (
+                  <>
+                    <span style={{ color:T.red, fontSize:13 }}>Fel vid inläsning av PDF</span>
+                    <button onClick={() => pdfFileInputRef.current?.click()}
+                      style={{ padding:"8px 20px", background:T.accentBlue, color:"#fff",
+                        border:"none", borderRadius:8, fontSize:13, cursor:"pointer", fontWeight:600 }}>
+                      Försök med annan fil
+                    </button>
+                  </>
+                )}
+                {pdfStatus==="idle" && (
+                  <div
+                    onClick={() => pdfFileInputRef.current?.click()}
+                    style={{
+                      display:"flex", flexDirection:"column", alignItems:"center", gap:16,
+                      padding:"48px 40px", borderRadius:20, cursor:"pointer",
+                      border:`2px dashed ${isDragOver ? T.accentBlue : "rgba(0,0,0,0.15)"}`,
+                      background: isDragOver ? `${T.accentBlue}0D` : "rgba(255,255,255,0.6)",
+                      transition:"all 0.2s", maxWidth:420, textAlign:"center",
+                      backdropFilter:"blur(8px)",
+                    }}>
+                    <div style={{ fontSize:52, lineHeight:1 }}>📄</div>
+                    <div>
+                      <div style={{ fontSize:17, fontWeight:700, color:T.text, marginBottom:6 }}>
+                        Importera ritning
+                      </div>
+                      <div style={{ fontSize:13, color:T.muted, lineHeight:1.5 }}>
+                        Dra och släpp en PDF-ritning här, eller klicka för att välja fil.<br/>
+                        <span style={{ fontSize:12, opacity:.7 }}>Stödjer bygglovsritningar och situationsplaner (PDF)</span>
+                      </div>
+                    </div>
+                    <button
+                      onClick={e => { e.stopPropagation(); pdfFileInputRef.current?.click(); }}
+                      style={{ padding:"10px 28px", background:T.accentBlue, color:"#fff",
+                        border:"none", borderRadius:50, fontSize:14, fontWeight:700,
+                        cursor:"pointer", boxShadow:`0 4px 16px ${T.accentBlue}44`,
+                        letterSpacing:"0.03em" }}>
+                      Välj PDF-fil
+                    </button>
+                  </div>
+                )}
               </div>
             )}
 
